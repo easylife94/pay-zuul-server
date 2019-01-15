@@ -1,4 +1,6 @@
 eureka:
+  instance:
+    hostname: pay-zuul-server
   client:
     service-url:
       defaultZone: http://pay-eureka-server:8761/eureka
